@@ -1,10 +1,10 @@
-﻿using System;
+﻿using SimpleWebScraper.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using SimpleWebScraper.Data;
 
 namespace SimpleWebScraper.Builders
 {
@@ -49,6 +49,7 @@ namespace SimpleWebScraper.Builders
 			_parts.Add(scrapeCriteriaPart);
 			return this;
 		}
+
 
 		public ScrapeCriteria Build()
 		{
